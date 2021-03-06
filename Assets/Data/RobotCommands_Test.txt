@@ -1,0 +1,37 @@
+// ------------------------------------
+// Robot B9 Command file
+// ------------------------------------
+
+// Place robot in the world
+START 0,0,13.85
+WAIT 2
+
+ROTATE 90,45
+WAIT 2
+ROTATE -90,90
+WAIT 1
+ROTATE 180,90
+WAIT 5
+
+MOVE 4
+WAIT 2
+STOP
+
+WAIT 1
+MOVE -3
+WAIT 2
+STOP
+
+ROTATE 90,45
+WAIT 2
+
+MOVE -5
+WAIT 4
+STOP
+
+ROTATE -90,90
+WAIT 2
+MOVE 5
+WAIT 3
+
+DESTROY
